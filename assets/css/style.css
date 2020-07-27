@@ -80,3 +80,7 @@ table, th, td {
   align-items: center;
   padding: 30px;
 }
+
+.reset {
+  margin: 10px;
+}
