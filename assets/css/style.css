@@ -36,8 +36,14 @@
 }
 
 .flex-blackjack-row-1, .flex-blackjack-row-2 {
-  background: url('/static/images/tableBackground.png') center;
+  
+  background: url('../images/tableBackground.png') center;
   color: #ffffff;
+}
+
+.flex-blackjack-row-3 {
+  
+  background: url('../images/tableBackground.png') bottom;
 }
 
 .flex-blackjack-row-1 div {
@@ -64,8 +70,10 @@
 }
 
 table, th, td {
+  text-align: center;
   padding: 5px;
-  border: 1px solid black;
+  border: 3px double #15A412;
+  color: #ffffff;
 }
 
 .container-1, .container-2, .container-3, .container-4, .container-5 {
